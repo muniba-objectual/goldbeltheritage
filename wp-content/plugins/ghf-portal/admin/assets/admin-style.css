@@ -1,0 +1,14 @@
+li#menu-posts-job img {
+    opacity: 1!important;
+}
+
+li#menu-posts-job a {
+    background: #af6666!important;
+}
+li#menu-posts-job .wp-submenu,li#menu-posts-job .wp-submenu li,li#menu-posts-job .wp-submenu li a {
+    background: #2c3338!important;
+}
+
+li#toplevel_page_ghf_form_applications a {
+    background: #7e1010!important;
+}

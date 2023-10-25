@@ -1,0 +1,544 @@
+[{
+    "type": "radio-group",
+    "required": "true",
+    "label": "Check the box for which camp student is applying (select the grade that student is currently enrolled or will enter in the fall):",
+    "inline": "true",
+    "className": "row-ghf-form",
+    "name": "currently_enrolled",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Elementary (K-5)",
+        "value": "elementary"
+    }, {
+        "selected": "false",
+        "label": "Middle School (6-8)",
+        "value": "middle-school"
+    }, {
+        "selected": "false",
+        "label": "High School  (9-12)",
+        "value": "high-school"
+    }]
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "First Name",
+    "placeholder": "Enter First Name here",
+    "className": "ghf-field field-third",
+    "name": "first_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Middle Name",
+    "placeholder": "Enter Middle Name here",
+    "className": "ghf-field field-third",
+    "name": "middle_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Last Name",
+    "placeholder": "Enter Last Name here",
+    "className": "ghf-field field-third",
+    "name": "last_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Address: Street or PO BOX",
+    "placeholder": "Address: Street or PO BOX",
+    "className": "ghf-field field-full",
+    "name": "street_po_box",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "City",
+    "placeholder": "City",
+    "className": "ghf-field field-third",
+    "name": "city",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "State",
+    "placeholder": "State",
+    "className": "ghf-field field-third",
+    "name": "state",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Zip",
+    "placeholder": "Zip",
+    "className": "ghf-field field-third",
+    "name": "zip_code",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Mobile Number",
+    "placeholder": "Enter Mobile Number Here",
+    "className": "ghf-field field-half",
+    "name": "mobile_number",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Cell Number",
+    "placeholder": "Enter Cell Number Here",
+    "className": "ghf-field field-half",
+    "name": "cell_number",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "radio-group",
+    "required": "true",
+    "label": "Gender",
+    "inline": "true",
+    "className": "ghf-field ghf-inline-options field-half",
+    "name": "gender",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Male",
+        "value": "male"
+    }, {
+        "selected": "false",
+        "label": "Female",
+        "value": "female"
+    }, {
+        "selected": "false",
+        "label": "Other",
+        "value": "other"
+    }]
+}, {
+    "type": "date",
+    "required": "true",
+    "label": "Date of Birth",
+    "placeholder": "DOB",
+    "className": "ghf-field field-half",
+    "name": "ghf-field-date_of_birth",
+    "access": "true"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Grade&nbsp;(currently enrolled or in the fall):",
+    "className": "ghf-field field-full",
+    "name": "current_grade",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Name of School Attending",
+    "className": "ghf-field field-full",
+    "name": "current_school",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "radio-group",
+    "required": "true",
+    "label": "Tribal Affiliation",
+    "inline": "true",
+    "className": "ghf-field ghf-inline-options",
+    "name": "tribal_affiliation",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "false",
+        "label": "Tlingit",
+        "value": "tlingit"
+    }, {
+        "selected": "false",
+        "label": "Haida",
+        "value": "haida"
+    }]
+}, {
+    "type": "header",
+    "subtype": "h5",
+    "label": "Student Medical Information",
+    "className": "ghf-section-heading",
+    "access": "true"
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "label": "&nbsp;",
+    "toggle": "true",
+    "inline": "true",
+    "name": "move_agreement",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Please initial in the box next to each statement below to indicate your agreement. (move on to the next section).",
+        "value": "move_agreement_next"
+    }]
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Student will bring the following medications to camp, Include name, directions, dosage,&nbsp; and frequency.&nbsp;( Leave empty if none )",
+    "className": "ghf-field field-full",
+    "name": "mediciations_bring",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Known Allergies ( Leave blank if none )",
+    "className": "ghf-field field-third",
+    "name": "known_allergies",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Medically Prescribed Diet ( Leave blank if none )",
+    "className": "ghf-field field-third",
+    "name": "medically_prescribed_diet",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Physical limitations&nbsp;( Leave blank if none )",
+    "className": "ghf-field field-third",
+    "name": "physical_limitations",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Emotional Reactions&nbsp;( Leave blank if none )",
+    "className": "ghf-field field-half",
+    "name": "emotional_reactions",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Immunizations Current&nbsp;( Leave blank if none )",
+    "className": "ghf-field field-half",
+    "name": "immunizations_current",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "header",
+    "subtype": "h5",
+    "label": "Emergency Contact Information",
+    "className": "ghf-section-heading",
+    "access": "true"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Mother Name",
+    "className": "ghf-field field-full",
+    "name": "mothers_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Mother Phone 1&nbsp;",
+    "className": "ghf-field field-third",
+    "name": "mother_phone_1",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Mother Phone 2",
+    "className": "ghf-field field-third",
+    "name": "mothers_phone_2",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Mother Email Address",
+    "className": "ghf-field field-third",
+    "name": "mothers_email",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Father Name",
+    "className": "ghf-field field-full",
+    "name": "fathers_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Father Phone 1&nbsp;",
+    "className": "ghf-field field-third",
+    "name": "father_phone_1",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Father Phone 2",
+    "className": "ghf-field field-third",
+    "name": "father_phone_2",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Father Email",
+    "className": "ghf-field field-third",
+    "name": "father_email",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Secondary Contact",
+    "className": "ghf-field field-half",
+    "name": "secondary_contact",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Relationship",
+    "className": "ghf-field field-half",
+    "name": "relationship_with_secondary_contact",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Phone 1",
+    "className": "ghf-field field-third",
+    "name": "secondary_contact_phone_number_1",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Phone 2",
+    "className": "ghf-field field-third",
+    "name": "secondary_contact_phone_number_2",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Email",
+    "className": "ghf-field field-third",
+    "name": "secondary_contact_email_address",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Student Doctor Name",
+    "className": "ghf-field field-half",
+    "name": "student_doctor_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Phone Number",
+    "className": "ghf-field field-half",
+    "name": "student_doctor_phone_number",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Health Plan Provider",
+    "className": "ghf-field field-full",
+    "name": "health_plan_provider",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "header",
+    "subtype": "h5",
+    "label": "Student Agreement",
+    "className": "ghf-section-heading",
+    "access": "true"
+}, {
+    "type": "paragraph",
+    "subtype": "p",
+    "label": "Please initial in the box next to each statement below to indicate your agreement. \n(move on to the next section).",
+    "className": "section-text",
+    "access": "true"
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "student_no_leaves_except_emergency",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Student agrees to attend the full term of the camp and acknowledges  that they will not leave for any reason except for family emergencies",
+        "value": "yes"
+    }]
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "drug_alchohol_free",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Student agrees to remain drug\/alcohol\/tobacco free during the camp.",
+        "value": "yes"
+    }]
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "accept_rules_guidelines",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Student agrees to follow the rules, guidelines, and schedules as  established by Goldbelt Heritage.",
+        "value": "yes"
+    }]
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "agree_participate_camp_activities",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Student agrees to participate in camp activities to the best of their  ability and to be supportive and encouraging to others who are attending camp.",
+        "value": "yes"
+    }]
+}, {
+    "type": "paragraph",
+    "subtype": "p",
+    "label": "Student acknowledges that the information provided in this application is true and \ncomplete to the best of their knowledge and understands that any misrepresentation \nor any concealment of information requested will be sufficient grounds for rejection \nof this application, removal of participation eligibility, or loss of any scholarship\/\nfunding awarded or received.",
+    "className": "ghf-text",
+    "access": "true"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Printed Name",
+    "className": "ghf-field field-half",
+    "name": "printed_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Date of Submission",
+    "className": "ghf-field field-half",
+    "name": "date",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "header",
+    "subtype": "h5",
+    "label": "Parent Agreement",
+    "className": "ghf-section-heading",
+    "access": "true"
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "permission_to_treat",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Medical Permission to Treat: I hereby warrant that to the best of my  knowledge, my child is in good health and has no illness or communicable  disease which will interfere with their camp experience and I assume all  responsibility for the health of my child",
+        "value": "yes"
+    }]
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "emergency_medical_treatment",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Emergency Medical Treatment: In the event of an emergency, I hereby  give permission to transport my child to a hospital for emergency medical  or surgical treatment.",
+        "value": "yes"
+    }]
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "permission_to_participate",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Permission to Participate: I grant permission for my child\/dependent  to participate in all camp activities including traveling in designated  vehicles and\/or commercial vehicles to and from activities and events as  appropriate.",
+        "value": "yes"
+    }]
+}, {
+    "type": "checkbox-group",
+    "required": "true",
+    "toggle": "true",
+    "inline": "true",
+    "className": "ghf-checkbox-group",
+    "name": "allow_pictures",
+    "access": "true",
+    "other": "true",
+    "values": [{
+        "selected": "true",
+        "label": "Photo\/Video Release: I grant permission for my child\u2019s likeness in  photography, audio, or video recordings obtained during Goldbelt Heritage  activities to be used for promotional, marketing, educational, and other  lawful purposes. I waive any claims to compensation and understand that  all such items will be the property of Goldbelt Heritage Foundation.",
+        "value": "yes"
+    }]
+}, {
+    "type": "paragraph",
+    "subtype": "p",
+    "label": "I certify that the information provided in this application is true an complete to the best \nof my knowledge and I understand that any misrepresentation or any concealment of \ninformation requested will be sufficient grounds for rejection of this application, removal \nof participation eligibility, or loss of any scholarship\/funding awarded or received.",
+    "className": "ghf-text",
+    "access": "true"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Printed Name",
+    "className": "ghf-field field-half",
+    "name": "parent_printed_name",
+    "access": "true",
+    "subtype": "text"
+}, {
+    "type": "text",
+    "required": "true",
+    "label": "Date of Submission",
+    "className": "ghf-field field-half",
+    "name": "parent_date_of_submission",
+    "access": "true",
+    "subtype": "text"
+}]

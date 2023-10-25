@@ -1,0 +1,21 @@
+{
+    "name": "user/ghf-portal",
+    "authors": [
+        {
+            "name": "Syed Naqi",
+            "email": "Syed.naqi@itsolution24x7.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Admin\\":"admin",
+            "Includes\\": "includes",
+            "FrontEnd\\":"public"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.5",
+        "dompdf/dompdf": "^1.2"
+    }
+}
